@@ -1,0 +1,12 @@
+* {
+  --twitter-background: #000;
+  --twitter-text-color: #fff;
+  --twitter-dark-color: rgba(231, 233, 234, 0.1);
+  --twitter-blue: rgb(29, 155, 240);
+  --twitter-dark-blue: rgb(26, 140, 216);
+}
+
+body {
+  background-color: var(--twitter-background);
+  color: var(--twitter-text-color);
+}
