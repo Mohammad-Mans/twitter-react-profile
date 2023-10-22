@@ -4,6 +4,8 @@
   --twitter-dark-color: rgba(231, 233, 234, 0.1);
   --twitter-blue: rgb(29, 155, 240);
   --twitter-dark-blue: rgb(26, 140, 216);
+  --twitter-grey: rgb(113, 118, 123);
+  --twitter-border: rgb(47, 51, 54);
 }
 
 body {

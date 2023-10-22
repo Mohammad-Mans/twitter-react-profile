@@ -1,3 +1,33 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  border-right: 1px solid var(--twitter-border);
+  overflow-y: auto;
+}
+
+.sidebar-options {
+  padding-right: 30px;
+}
+
+.sidebar-options a img {
+  width: 29px;
+  height: 25px;
+  padding: 12px;
+}
+
+.sidebar-options a {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.sidebar-options a:hover {
+  border-radius: 50%;
+  background-color: var(--twitter-dark-color);
+  transition: 100ms ease-out;
+}
+
 .sidebar-post {
   background-color: var(--twitter-blue) !important;
   border: none !important;
