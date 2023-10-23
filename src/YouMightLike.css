@@ -1,0 +1,25 @@
+.you-Might-like-container {
+  background-color: var(--twitter-widgets-background);
+  border-radius: 20px;
+  margin-top: 16px;
+  border: 1px solid var(--twitter-widgets-background);
+}
+
+.you-Might-like-container > h2 {
+  margin: 0;
+  padding: 0;
+  margin: 10px 18px;
+  font-size: 20px;
+}
+
+.you-Might-like-container > p {
+  margin: 0;
+  padding: 0;
+  color: var(--twitter-blue);
+  margin: 20px 18px;
+  cursor: pointer;
+}
+
+.you-Might-like-container > p:hover {
+  color: var(--twitter-dark-blue);
+}

@@ -1,0 +1,9 @@
+.suggestion {
+  cursor: pointer;
+  padding: 10px 18px;
+}
+
+.suggestion:hover {
+  background-color: var(--twitter-widgets-hover);
+  transition: 100ms ease-out;
+}

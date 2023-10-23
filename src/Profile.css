@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: flex-start;
   min-width: 0;
+  max-width: 210px;
 }
 
 .profile-container > .profile-img {
@@ -37,4 +38,12 @@
 .name-container > .user-name {
   font-weight: bold;
   font-size: 15px;
+}
+
+.user-name > .MuiSvgIcon-root {
+  position: relative;
+  top: 4px;
+  font-size: 18px;
+  color: var(--twitter-blue);
+  margin-left: 3px;
 }

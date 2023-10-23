@@ -1,0 +1,23 @@
+.twitter-follow-button {
+  background-color: var(--twitter-text-color);
+  color: var(--twitter-background);
+  border: 1px solid var(--twitter-text-color);
+  padding: 8px 16px;
+  height: 32px;
+  line-height: 2px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 100ms ease-out;
+}
+
+.twitter-follow-button.following {
+  background-color: transparent;
+  color: var(--twitter-text-color);
+  border: 1px solid var(--twitter-grey);
+}
+
+.twitter-follow-button:hover {
+  color: var(--twitter-blue);
+  border-color: var(--twitter-blue);
+}

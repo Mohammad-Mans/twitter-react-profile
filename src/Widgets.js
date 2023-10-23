@@ -1,13 +1,16 @@
 import "./Widgets.css";
-import { SearchOutlined } from "@mui/icons-material";
+import SearchIcon from "@mui/icons-material/Search";
+import YouMightLike from "./YouMightLike";
 
 function Widgets() {
   return (
     <div className="widgets">
-      <div className="">
-        <SearchOutlined />
+      <div className="search-bar">
+        <SearchIcon />
         <input type="text" placeholder="Search" />
       </div>
+
+      <YouMightLike />
     </div>
   );
 }

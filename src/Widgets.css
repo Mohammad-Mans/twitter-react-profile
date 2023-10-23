@@ -1,3 +1,28 @@
-.widgets{
-    flex: 1.8;
+.widgets {
+  flex: 1.8;
+  padding: 5px 10px 0 30px;
+}
+
+.widgets > .search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--twitter-search-background);
+  border-radius: 30px;
+}
+
+.search-bar > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 12px;
+  color: var(--twitter-text-color);
+  font-size: 15px;
+  width: 70%;
+}
+
+.search-bar > .MuiSvgIcon-root {
+  padding-left: 15px;
+  padding-right: 5px;
+  color: var(--twitter-grey);
 }

@@ -6,6 +6,9 @@
   --twitter-dark-blue: rgb(26, 140, 216);
   --twitter-grey: rgb(113, 118, 123);
   --twitter-border: rgb(47, 51, 54);
+  --twitter-search-background: rgb(32, 35, 39);
+  --twitter-widgets-background: rgb(22, 24, 28);
+  --twitter-widgets-hover: rgba(255, 255, 255, 0.03);
 }
 
 body {

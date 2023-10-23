@@ -37,7 +37,7 @@ function Sidebar() {
       <SidebarProfile
         photoURL={profileImage}
         userName={"Mohammad Mansour"}
-        Email={"@MohammadMans_02"}
+        email={"@MohammadMans_02"}
       />
     </div>
   );
