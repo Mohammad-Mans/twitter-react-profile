@@ -1,0 +1,40 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+}
+
+.profile-container > .profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-container > .name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+  min-width: 0;
+}
+
+.name-container > p {
+  margin: 0;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.name-container > .email {
+  color: var(--twitter-grey);
+  font-size: 15px;
+}
+
+.name-container > .user-name {
+  font-weight: bold;
+  font-size: 15px;
+}
