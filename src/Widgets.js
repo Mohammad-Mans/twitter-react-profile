@@ -1,9 +1,8 @@
 import "./Widgets.css";
 import SearchIcon from "@mui/icons-material/Search";
-import YouMightLike from "./YouMightLike";
-import TrendsForYou from "./TrendsForYou";
+import Widget from "./Widget";
 
-function Widgets() {
+function Widgets({trendsData,profilesData}) {
   return (
     <div className="widgets-container">
       <div className="widgets">
@@ -12,9 +11,10 @@ function Widgets() {
           <input type="text" placeholder="Search" />
         </div>
 
-        <YouMightLike />
+        <Widget data={profilesData} type="profile" />
+        <Widget data={trendsData} type="trend" />
+        
 
-        <TrendsForYou />
       </div>
     </div>
   );

@@ -2,11 +2,14 @@ import "./WidgetSuggestion.css";
 import ProfileToFollow from "./ProfileToFollow";
 import Trend from "./Trend";
 
-function WidgetSuggestion({ profile, trend, ...props }) {
+function WidgetSuggestion({ type, data }) {
   return (
     <div className="suggestion">
-      {profile && <ProfileToFollow {...props} />}
-      {trend && <Trend {...props} />}
+      {type === "profile" ? (
+        <ProfileToFollow {...data} />
+      ) : (
+        <Trend {...data} />
+      )}
     </div>
   );
 }
