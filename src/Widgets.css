@@ -1,6 +1,11 @@
 .widgets {
-  flex: 1.8;
+  position: sticky;
+  top: 0;
+  overflow: auto;
+  width: 350px;
   padding: 5px 10px 0 30px;
+  border-left: 1px solid var(--twitter-border);
+  
 }
 
 .widgets > .search-bar {

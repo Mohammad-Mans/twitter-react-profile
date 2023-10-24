@@ -5,15 +5,17 @@ import TrendsForYou from "./TrendsForYou";
 
 function Widgets() {
   return (
-    <div className="widgets">
-      <div className="search-bar">
-        <SearchIcon />
-        <input type="text" placeholder="Search" />
+    <div className="widgets-container">
+      <div className="widgets">
+        <div className="search-bar">
+          <SearchIcon />
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <YouMightLike />
+
+        <TrendsForYou />
       </div>
-
-      <YouMightLike />
-
-      <TrendsForYou />
     </div>
   );
 }

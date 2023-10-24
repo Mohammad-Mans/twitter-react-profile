@@ -17,28 +17,30 @@ import profileImage from "./images/Palestine.jpeg";
 
 function Sidebar() {
   return (
-    <div className="sidebar">
-      <div className="sidebar-options">
-        <a href="https://twitter.com/home">
-          <img src={logoImage} alt="Twitter-logo" />
-        </a>
-        <SidebarOption text={"Home"} Icon={HomeOutlined} />
-        <SidebarOption text={"Explore"} Icon={SearchIcon} />
-        <SidebarOption text={"Notifications"} Icon={NotificationsNoneIcon} />
-        <SidebarOption text={"Messages"} Icon={MailOutlineIcon} />
-        <SidebarOption text={"Lists"} Icon={ListAltOutlinedIcon} />
-        <SidebarOption text={"Communities"} Icon={PeopleOutlinedIcon} />
-        <SidebarOption text={"Profile"} Icon={PersonOutlineOutlinedIcon} />
-        <SidebarOption text={"More"} Icon={PendingOutlinedIcon} />
-        <Button variant="outlined" className="sidebar-post" fullWidth>
-          Post
-        </Button>
+    <div className="sidebar-container">
+      <div className="sidebar">
+        <div className="sidebar-options">
+          <a href="https://twitter.com/home">
+            <img src={logoImage} alt="Twitter-logo" />
+          </a>
+          <SidebarOption text={"Home"} Icon={HomeOutlined} />
+          <SidebarOption text={"Explore"} Icon={SearchIcon} />
+          <SidebarOption text={"Notifications"} Icon={NotificationsNoneIcon} />
+          <SidebarOption text={"Messages"} Icon={MailOutlineIcon} />
+          <SidebarOption text={"Lists"} Icon={ListAltOutlinedIcon} />
+          <SidebarOption text={"Communities"} Icon={PeopleOutlinedIcon} />
+          <SidebarOption text={"Profile"} Icon={PersonOutlineOutlinedIcon} />
+          <SidebarOption text={"More"} Icon={PendingOutlinedIcon} />
+          <Button variant="outlined" className="sidebar-post" fullWidth>
+            Post
+          </Button>
+        </div>
+        <SidebarProfile
+          photoURL={profileImage}
+          userName={"Mohammad Mansour"}
+          email={"@MohammadMans_02"}
+        />
       </div>
-      <SidebarProfile
-        photoURL={profileImage}
-        userName={"Mohammad Mansour"}
-        email={"@MohammadMans_02"}
-      />
     </div>
   );
 }
