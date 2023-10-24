@@ -9,6 +9,7 @@
   --twitter-search-background: rgb(32, 35, 39);
   --twitter-widgets-background: rgb(22, 24, 28);
   --twitter-widgets-hover: rgba(255, 255, 255, 0.03);
+  --twitter-widgets-info-hover: rgba(29, 155, 240, 0.1);
 }
 
 body {

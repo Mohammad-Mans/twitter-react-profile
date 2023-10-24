@@ -1,0 +1,38 @@
+.trend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trend > .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.info > p {
+  padding: 0;
+  margin: 0;
+}
+
+.info > .title {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.info > .posts {
+  color: var(--twitter-grey);
+  font-size: 12px;
+}
+
+.trend > .MuiSvgIcon-root {
+  color: var(--twitter-grey);
+  padding: 5px;
+}
+
+.trend > .MuiSvgIcon-root:hover {
+  background-color: var(--twitter-widgets-info-hover);
+  color: var(--twitter-blue);
+  border-radius: 50%;
+}

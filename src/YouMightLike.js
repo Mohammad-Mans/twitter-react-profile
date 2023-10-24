@@ -11,17 +11,20 @@ function YouMightLike() {
       <h2>You might Like</h2>
 
       <WidgetSuggestion
+        profile
         photoURL={tailwindPhoto}
         userName={"Tailwind CSS"}
         email={"@tailwindcss"}
         verified
       />
       <WidgetSuggestion
+        profile
         photoURL={typeScript}
         userName={"TypeScript"}
         email={"@typescript"}
       />
       <WidgetSuggestion
+        profile
         photoURL={freeCodeCamp}
         userName={"freeCodeCamp.org"}
         email={"@freeCodeCamp"}

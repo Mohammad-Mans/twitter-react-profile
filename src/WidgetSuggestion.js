@@ -1,10 +1,12 @@
 import "./WidgetSuggestion.css";
 import ProfileToFollow from "./ProfileToFollow";
+import Trend from "./Trend";
 
-function WidgetSuggestion(props) {
+function WidgetSuggestion({ profile, trend, ...props }) {
   return (
     <div className="suggestion">
-      <ProfileToFollow {...props} />
+      {profile && <ProfileToFollow {...props} />}
+      {trend && <Trend {...props} />}
     </div>
   );
 }

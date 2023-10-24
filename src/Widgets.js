@@ -1,6 +1,7 @@
 import "./Widgets.css";
 import SearchIcon from "@mui/icons-material/Search";
 import YouMightLike from "./YouMightLike";
+import TrendsForYou from "./TrendsForYou";
 
 function Widgets() {
   return (
@@ -11,6 +12,8 @@ function Widgets() {
       </div>
 
       <YouMightLike />
+
+      <TrendsForYou />
     </div>
   );
 }
