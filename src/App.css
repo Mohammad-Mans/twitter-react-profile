@@ -24,5 +24,5 @@ body {
 .App {
   width: 1250px;
   display: grid;
-  grid-template-columns: 275px auto 350px;
+  grid-template-columns: 275px auto 380px;
 }

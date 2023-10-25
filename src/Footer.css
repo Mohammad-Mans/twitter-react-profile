@@ -1,0 +1,26 @@
+.footer {
+  
+  font-style: none;
+  margin-top: 12px;
+  padding: 0 16px;
+}
+
+.footer > a,
+.footer > p {
+    color: var(--twitter-grey);
+  margin: 2px 0;
+  padding: 0 12px 0 0;
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer > a:hover{
+    text-decoration: underline;
+}
+
+.footer .MuiSvgIcon-root{
+    font-size: small;
+    position: relative;
+    top: 3.5px;
+}
