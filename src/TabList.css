@@ -1,0 +1,45 @@
+.tab-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid var(--twitter-border);
+  width: 100%;
+}
+
+.tab-list .tab {
+  color: var(--twitter-grey);
+  background-color: var(--twitter-background-color);
+  border: none;
+  padding: 0 47px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.tab-list .tab:hover {
+  background-color: var(--twitter-dark-color);
+}
+
+.label {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.active {
+  color: var(--twitter-text-color);
+}
+
+.active::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: var(--twitter-blue);
+  border-radius: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
