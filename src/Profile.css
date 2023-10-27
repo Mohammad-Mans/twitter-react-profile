@@ -30,7 +30,7 @@
   width: 100%;
 }
 
-.name-container > .email {
+.name-container > .handle {
   color: var(--twitter-grey);
   font-size: 15px;
 }

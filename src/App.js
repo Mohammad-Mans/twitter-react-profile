@@ -6,33 +6,49 @@ import Widgets from "./Widgets";
 import tailwindPhoto from "./images/Tailwind.jpg";
 import typeScriptPhoto from "./images/TypeScript.png";
 import freeCodeCampPhoto from "./images/freeCodeCamp.jpg";
+import reactCover from "./images/RactCover.jpg";
+import reactProfilePhoto from "./images/ReactProfile.png";
 
 function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Feed />
+      <Feed viewedProfile={jsonViewedProfile} />
       <Widgets trendsData={jsonTrendsData} profilesData={jsonProfilesData} />
     </div>
   );
 }
 
+const jsonViewedProfile = {
+  photoURL: reactProfilePhoto,
+  coverURL: reactCover,
+  userName: "React",
+  handle: "@reactjs",
+  activitiesCount: "2,611",
+  bio: "The library for web and native user interfaces",
+  followers: "267",
+  following: "708.1K",
+  joinedDate: "July 2013",
+  attachment: "react.dev",
+  attachmentURL: "https://react.dev/",
+};
+
 const jsonProfilesData = [
   {
     photoURL: tailwindPhoto,
     userName: "Tailwind CSS",
-    email: "@tailwindcss",
+    handle: "@tailwindcss",
     verified: true,
   },
   {
     photoURL: typeScriptPhoto,
     userName: "TypeScript",
-    email: "@typescript",
+    handle: "@typescript",
   },
   {
     photoURL: freeCodeCampPhoto,
     userName: "freeCodeCamp.org",
-    email: "@freeCodeCamp",
+    handle: "@freeCodeCamp",
     verified: true,
   },
 ];

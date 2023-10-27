@@ -1,7 +1,7 @@
 import "./Profile.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
 
-function Profile({ photoURL, userName, email, verified }) {
+function Profile({ photoURL, userName, handle, verified }) {
   return (
     <div className="profile-container">
       <img src={photoURL} alt={userName} className="profile-img" />
@@ -12,7 +12,7 @@ function Profile({ photoURL, userName, email, verified }) {
           {verified && <VerifiedIcon />}
         </p>
 
-        <p className="email">{email}</p>
+        <p className="handle">{handle}</p>
       </div>
     </div>
   );
