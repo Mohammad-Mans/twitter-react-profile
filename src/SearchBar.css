@@ -1,0 +1,34 @@
+.search-bar-container {
+    border-left: 1px solid var(--twitter-border);
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    width: 380px;
+    background-color: var(--twitter-background);
+    padding: 5px 10px 5px 30px;
+    z-index: 999;
+  }
+  
+  .search-bar-container > .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 30px;
+    background-color: var(--twitter-search-background);
+  }
+  
+  .search-bar > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 12px;
+    color: var(--twitter-text-color);
+    font-size: 15px;
+    width: 70%;
+  }
+  
+  .search-bar > .MuiSvgIcon-root {
+    padding-left: 15px;
+    padding-right: 5px;
+    color: var(--twitter-grey);
+  }

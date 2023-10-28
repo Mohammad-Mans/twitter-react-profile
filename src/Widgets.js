@@ -1,17 +1,14 @@
 import "./Widgets.css";
-import SearchIcon from "@mui/icons-material/Search";
 import Widget from "./Widget";
 import Footer from "./Footer";
+import SearchBar from "./SearchBar";
 
 function Widgets({ trendsData, profilesData }) {
   return (
     <div className="widgets-container">
+      <SearchBar />
+      
       <div className="widgets">
-        <div className="search-bar">
-          <SearchIcon />
-          <input type="text" placeholder="Search" />
-        </div>
-
         <Widget data={profilesData} type="profile" />
         <Widget data={trendsData} type="trend" />
 

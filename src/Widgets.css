@@ -1,35 +1,11 @@
 .widgets {
   box-sizing: border-box;
   position: sticky;
-  top: 0;
+  top: 54px;
   overflow: auto;
   width: 380px;
-  padding: 5px 10px 0 30px;
+  padding: 0 10px 64px 30px;
   border-left: 1px solid var(--twitter-border);
-  padding-bottom: 64px;
-  
 }
 
-.widgets > .search-bar {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: var(--twitter-search-background);
-  border-radius: 30px;
-}
 
-.search-bar > input {
-  background-color: transparent;
-  outline: none;
-  border: none;
-  padding: 12px;
-  color: var(--twitter-text-color);
-  font-size: 15px;
-  width: 70%;
-}
-
-.search-bar > .MuiSvgIcon-root {
-  padding-left: 15px;
-  padding-right: 5px;
-  color: var(--twitter-grey);
-}
