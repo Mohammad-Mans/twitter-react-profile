@@ -1,0 +1,143 @@
+.post > .type {
+  padding: 12px 0 0 16px;
+}
+
+.type > p {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 3px;
+  margin: 0;
+  font-size: 13px;
+  color: var(--twitter-grey);
+}
+
+.type > p > .MuiSvgIcon-root {
+  font-size: 16px;
+  margin: 0 12px 0 24px;
+}
+
+.post > .body {
+  display: flex;
+  border-bottom: 1px solid var(--twitter-border);
+  padding: 0 16px 12px 16px;
+  cursor: pointer;
+}
+
+.body > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.post > .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > .post-author {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+}
+
+.post-author > .author-name {
+  font-weight: 600;
+  color: var(--twitter-text-color);
+  margin-right: 5px;
+}
+
+.post-author > .author-name:hover {
+  text-decoration: underline;
+}
+
+.post-author > .author-hook {
+  color: var(--twitter-grey);
+}
+
+.header > .post-author > .MuiSvgIcon-root {
+  color: var(--twitter-grey);
+  margin: 4px 0 0 0;
+  padding: 0 4px;
+  font-size: 3px;
+}
+
+.post-author > .publish-time {
+  color: var(--twitter-grey);
+}
+
+.post-author > .publish-time:hover {
+  text-decoration: underline;
+}
+
+.more-icon > .MuiSvgIcon-root {
+  font-size: 20px;
+  color: var(--twitter-grey);
+}
+
+.body > .main {
+  width: 100%;
+}
+
+.main > .content {
+  font-weight: 370;
+}
+
+.main > img {
+  width: 100%;
+  margin-top: 12px;
+  border: 1px solid var(--twitter-border);
+  border-radius: 15px;
+}
+
+.main > .react-buttons {
+  width: 100%;
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.25fr;
+}
+
+.react-buttons > p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--twitter-grey);
+  font-size: 13px;
+}
+
+.react-buttons > p > .MuiSvgIcon-root {
+  padding: 8px;
+  font-size: 18px;
+}
+
+.comment:hover,
+.view:hover,
+.share:hover {
+  color: var(--twitter-blue);
+
+  .MuiSvgIcon-root {
+    background-color: var(--twitter-blue-hover);
+    border-radius: 50%;
+  }
+}
+
+.repost:hover {
+  color: var(--twitter-green);
+
+  .MuiSvgIcon-root {
+    background-color: var(--twitter-green-hover);
+    border-radius: 50%;
+  }
+}
+
+.like:hover {
+  color: var(--twitter-red);
+
+  .MuiSvgIcon-root {
+    background-color: var(--twitter-red-hover);
+    border-radius: 50%;
+  }
+}

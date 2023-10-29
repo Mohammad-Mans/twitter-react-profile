@@ -10,7 +10,11 @@
   --twitter-search-background: rgb(32, 35, 39);
   --twitter-widgets-background: rgb(22, 24, 28);
   --twitter-widgets-hover: rgba(255, 255, 255, 0.03);
-  --twitter-widgets-info-hover: rgba(29, 155, 240, 0.1);
+  --twitter-blue-hover: rgba(29, 155, 240, 0.1);
+  --twitter-green: rgb(0, 186, 124);
+  --twitter-green-hover: rgba(0, 186, 124, 0.1);
+  --twitter-red: rgb(249,24,128);
+  --twitter-red-hover: rgba(249,24,128,0.1);
 }
 
 body {
