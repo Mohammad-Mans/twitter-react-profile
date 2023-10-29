@@ -1,5 +1,10 @@
-.profile-to-follow {
+.profile-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.profile-to-follow > p{
+  margin: 4px 0 0 50px;
+  font: 16px;
 }

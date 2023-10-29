@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Feed viewedProfile={jsonViewedProfile} />
+      <Feed viewedProfile={jsonViewedProfile} profilesData={jsonProfilesData} />
       <Widgets trendsData={jsonTrendsData} profilesData={jsonProfilesData} />
     </div>
   );
@@ -39,17 +39,23 @@ const jsonProfilesData = [
     userName: "Tailwind CSS",
     handle: "@tailwindcss",
     verified: true,
+    about:
+      "The utility-first CSS framework. Rapidly build modern websites, without ever leaving your HTML.",
   },
   {
     photoURL: typeScriptPhoto,
     userName: "TypeScript",
     handle: "@typescript",
+    about:
+      "TypeScript is a language for application-scale JavaScript development. It's a typed superset of JavaScript that compiles to plain JavaScript.",
   },
   {
     photoURL: freeCodeCampPhoto,
     userName: "freeCodeCamp.org",
     handle: "@freeCodeCamp",
     verified: true,
+    about:
+      "We're a community of millions of people who are building new skills and getting new jobs together. A 501(c)(3) public charity. Tweets by @abbeyrenn.",
   },
 ];
 

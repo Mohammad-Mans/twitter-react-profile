@@ -31,12 +31,12 @@
   margin-right: 12px;
 }
 
-.post > .header {
+.main > .post-header {
   display: flex;
   justify-content: space-between;
 }
 
-.header > .post-author {
+.post-header > .post-author {
   display: flex;
   align-items: center;
   font-size: 15px;
@@ -57,7 +57,7 @@
   color: var(--twitter-grey);
 }
 
-.header > .post-author > .MuiSvgIcon-root {
+.post-header > .post-author > .MuiSvgIcon-root {
   color: var(--twitter-grey);
   margin: 4px 0 0 0;
   padding: 0 4px;

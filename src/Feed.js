@@ -4,13 +4,13 @@ import ProfileBio from "./ProfileBio";
 import ProfileHeader from "./ProfileHeader";
 import TabList from "./TabList";
 
-function Feed({ viewedProfile }) {
+function Feed({ viewedProfile, profilesData }) {
   return (
     <div className="feed">
       <ProfileHeader {...viewedProfile} />
       <ProfileBio {...viewedProfile} />
       <TabList />
-      <Posts />
+      <Posts profilesData ={profilesData} />
     </div>
   );
 }

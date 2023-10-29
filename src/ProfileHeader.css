@@ -1,4 +1,4 @@
-.header {
+.main-header {
   box-sizing: border-box;
   display: flex;
   position: sticky;
@@ -10,7 +10,7 @@
   z-index: 999;
 }
 
-.header > .info {
+.main-header > .info {
   margin: 3px 0 3px 30px;
 }
 
@@ -25,13 +25,13 @@
   color: var(--twitter-grey);
 }
 
-.header > .MuiSvgIcon-root {
+.main-header > .MuiSvgIcon-root {
   margin-left: 10px;
   padding: 6px;
   cursor: pointer;
 }
 
-.header > .MuiSvgIcon-root:hover {
+.main-header > .MuiSvgIcon-root:hover {
   background-color: var(--twitter-dark-color);
   border-radius: 50%;
 }

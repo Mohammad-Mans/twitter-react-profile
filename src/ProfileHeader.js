@@ -5,7 +5,7 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 
 function FeedHeader({ userName, activitiesCount }) {
   return (
-    <div className="header">
+    <div className="main-header">
       <KeyboardBackspaceIcon />
 
       <div className="info">

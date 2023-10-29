@@ -6,7 +6,7 @@ function WidgetSuggestion({ type, data }) {
   return (
     <div className="suggestion">
       {type === "profile" ? (
-        <ProfileToFollow {...data} />
+        <ProfileToFollow profile={data}/>
       ) : (
         <Trend {...data} />
       )}

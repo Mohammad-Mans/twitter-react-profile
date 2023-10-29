@@ -1,14 +1,16 @@
 import Post from "./Post";
+import WhoToFollow from "./WhoToFollow";
 
 import danabraLogo from "./images/danabra-logo.jpg";
 import reactLogo from "./images/ReactProfile.png";
 import reactPostImg from "./images/reactPost.png";
 
-function Posts() {
+function Posts({profilesData}) {
   return (
     <div>
       <Post {...post1} />
       <Post {...post2} />
+      <WhoToFollow profiles ={profilesData}/>
     </div>
   );
 }

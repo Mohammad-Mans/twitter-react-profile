@@ -42,7 +42,7 @@ function Post({
         <img src={authorLogo} alt="author's logo" />
 
         <div className="main">
-          <div className="header">
+          <div className="post-header">
             <div className="post-author">
               <div className="author-name">{authorName}</div>
               <div className="author-hook">{authorHandle}</div>
